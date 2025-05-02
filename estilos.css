@@ -1,9 +1,8 @@
-/* Selector universal */
 * {
     font-family: Arial, sans-serif;
   }
   
-  /* Selectores de etiqueta */
+  
   h1 {
     background-color: purple;
     color: white;
@@ -20,7 +19,7 @@
     list-style-type: none;
   }
   
-  /* Selectores de ID */
+  
   #titulo {
     border: 3px dotted black;
     background-color: purple;
@@ -39,7 +38,7 @@
     margin-top: 20px;
   }
   
-  /* Selectores de clase */
+  
   .parrafo {
     font-style: italic;
     font-weight: bold;
@@ -47,16 +46,16 @@
   }
   
   .parrafo1 {
-    background-color: orangered;
+    background-color: yellow;
     padding: 5px;
   }
   
   .parrafo2 {
-    background-color: orangered;
+    background-color:yellow;
     padding: 5px;
   }
   
-  /* Selectores de atributo */
+  
   input[type="text"] {
     width: 250px;
     height: 25px;
@@ -69,13 +68,12 @@
     border: none;
   }
   
-  /* Selectores de hijo */
-  #menu > li > a {
+    #menu > li > a {
     font-weight: bold;
     color: crimson;
   }
   
-  /* Selector de prioridad con !important */
+
   #saludo h1 {
     color: white !important;
     background-color: purple;
