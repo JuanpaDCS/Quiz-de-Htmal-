@@ -1,0 +1,83 @@
+/* Selector universal */
+* {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Selectores de etiqueta */
+  h1 {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border: 2px dashed black;
+  }
+  
+  a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  /* Selectores de ID */
+  #titulo {
+    border: 3px dotted black;
+    background-color: purple;
+    padding: 10px;
+  }
+  
+  #descripcion {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  #usuario {
+    border: 3px solid blue;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Selectores de clase */
+  .parrafo {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .parrafo1 {
+    background-color: orangered;
+    padding: 5px;
+  }
+  
+  .parrafo2 {
+    background-color: orangered;
+    padding: 5px;
+  }
+  
+  /* Selectores de atributo */
+  input[type="text"] {
+    width: 250px;
+    height: 25px;
+  }
+  
+  input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+  }
+  
+  /* Selectores de hijo */
+  #menu > li > a {
+    font-weight: bold;
+    color: crimson;
+  }
+  
+  /* Selector de prioridad con !important */
+  #saludo h1 {
+    color: white !important;
+    background-color: purple;
+    padding: 10px;
+  }
